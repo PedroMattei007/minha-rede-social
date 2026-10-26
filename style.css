@@ -1,0 +1,56 @@
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #282828;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+/* Organiza o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estiliza os campos */
+input {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Estiliza o botão */
+button {
+    background-color: #5865F2;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #4752C4;
+}
+
+/* Erro ou acerto no email e senha*/
+.sucesso {
+    color: green;
+}
+
+.erro {
+    color: red;
+}
